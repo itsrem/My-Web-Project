@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Share Your Story | Roots of Al Ahsa</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+    <header>
+        <h1>Share Your Story</h1>
+        <p>Tell us about a place or tradition you remember in Al Ahsa.</p>
+    </header>
+
+    <div class="navigation">
+        <a href="index.html">Home</a><br>
+        <a href="Places.html">Historic Places</a><br>
+        <a href="Culture.html">Culture</a><br>
+        <a href="Share.html">Share Your Story</a>
+    </div>
+
+    <h2>Your Experience</h2>
+
+    <p>
+        Use this form to share a memory, a favorite place,
+        or a tradition connected to Al Ahsa.
+    </p>
+
+    <form>
+        <label for="visitorName">Your Name:</label>
+        <input type="text" id="visitorName" name="visitorName" required>
+
+        <br><br>
+
+        <label for="favoritePlace">Favorite Place:</label>
+        <select id="favoritePlace" name="favoritePlace">
+            <option value="Al Qarah Mountain">Al Qarah Mountain</option>
+            <option value="Ibrahim Palace">Ibrahim Palace</option>
+            <option value="Jawatha Mosque">Jawatha Mosque</option>
+            <option value="Al Qaisariya Souq">Al Qaisariya Souq</option>
+            <option value="Other">Other</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label for="yourStory">Your Story:</label>
+        <br>
+        <textarea id="yourStory" name="yourStory" rows="5" cols="30"></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>

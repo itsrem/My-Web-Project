@@ -1,0 +1,53 @@
+body {
+    background-color: #f5f0e6;
+    color: #3d3328;
+    font-family: Arial;
+    margin: 2%;
+}
+
+header {
+    background-color: #6b4f35;
+    color: white;
+    text-align: center;
+    padding: 2%;
+}
+
+.navigation {
+    background-color: #d9c3a5;
+    text-align: center;
+    padding: 2%;
+}
+
+.navigation a {
+    color: #3d3328;
+    margin: 2%;
+}
+
+h2 {
+    color: #6b4f35;
+}
+
+#welcome {
+    text-align: center;
+}
+
+img {
+    margin: 2%;
+}
+
+th {
+    background-color: #6b4f35;
+    color: white;
+}
+
+td {
+    padding: 2%;
+}
+
+form {
+    background-color: #e8dcc9;
+    padding: 2%;
+}
+.bold{
+    font: bold;
+}
